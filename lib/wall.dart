@@ -129,7 +129,7 @@ class WallScreen extends StatelessWidget {
 Widget bigBrick() {
   return Expanded(
     child: Container(
-      margin:  const EdgeInsets.only(right: 5,left: 5),
+      margin: const EdgeInsets.only(right: 5, left: 5),
       height: 65,
       width: 153,
       decoration: BoxDecoration(color: Colors.brown.shade700),
@@ -139,7 +139,7 @@ Widget bigBrick() {
 
 Widget smallBrick() {
   return Container(
-    margin:  const EdgeInsets.only(right: 5,left: 5),
+    margin: const EdgeInsets.only(right: 5, left: 5),
     height: 65,
     width: 85,
     decoration: BoxDecoration(color: Colors.brown.shade700),
