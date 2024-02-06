@@ -140,7 +140,6 @@ Widget bigBrick() {
 Widget smallBrick() {
   return Container(
     margin:  const EdgeInsets.only(right: 5,left: 5),
-
     height: 65,
     width: 85,
     decoration: BoxDecoration(color: Colors.brown.shade700),
